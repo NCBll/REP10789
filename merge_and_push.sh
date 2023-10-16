@@ -4,9 +4,6 @@ echo 'Commit message:'
 read Message
 
 git commit -am "$Message"
-echo 'current Branch:'
-read current_Branch
-git merge $current_Branch
 
 echo 'Target branch:'
 read target_branch
