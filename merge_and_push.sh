@@ -10,7 +10,7 @@ read target_branch
 
 git checkout $target_branch
 
-echo "Merging into $target_branch"
+echo "Merging $target_branch"
 
 
 git push origin $target_branch
