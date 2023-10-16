@@ -19,3 +19,5 @@ echo "Merging into $target_branch"
 git push origin $target_branch
 
 echo "Changes have been merged and pushed to $target_branch
+
+read
