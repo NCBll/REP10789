@@ -1,9 +1,9 @@
 git add .
 
 echo 'Enter the commit message:'
-read commitMessage
+read Message
 
-git commit -m "$commitMessage"
+git commit -m "$Message"
 
 echo 'branch:'
 read branch
