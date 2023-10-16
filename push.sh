@@ -1,6 +1,6 @@
 git add .
 
-echo 'Enter the commit message:'
+echo 'Commit message:'
 read Message
 
 git commit -m "$Message"
